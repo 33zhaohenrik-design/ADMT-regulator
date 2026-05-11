@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADMiT | Strategic Regulatory Protocol</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { background-color: #020617; color: #f8fafc; font-family: 'Inter', sans-serif; }
+        .accent-gradient { background: linear-gradient(90deg, #3b82f6, #10b981); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .glass-card { background: rgba(30, 41, 59, 0.4); border: 1px solid rgba(59, 130, 246, 0.2); backdrop-filter: blur(10px); }
+        .glow-hover:hover { box-shadow: 0 0 20px rgba(59, 130, 246, 0.3); transform: translateY(-2px); transition: all 0.3s ease; }
+    </style>
+</head>
+<body class="flex flex-col items-center px-6">
+
+    <section class="max-w-4xl w-full pt-24 pb-16 text-center">
+        <h1 class="text-7xl font-black tracking-tighter mb-4">ADMiT <span class="text-blue-500 font-light text-3xl block md:inline tracking-normal ml-2">(You Want It)</span></h1>
+        <p class="text-blue-400 uppercase tracking-widest font-bold text-sm mb-8">The 2026 California Decision-Logic Standard</p>
+        <p class="text-slate-400 text-xl leading-relaxed max-w-2xl mx-auto">
+            Secure your automated infrastructure. Avoid the $2,500 daily non-compliance penalties with the region's leading decision-logic vault.
+        </p>
+    </section>
+
+    <section class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl w-full mb-20">
+        <div class="glass-card p-8 rounded-3xl">
+            <div class="text-blue-500 mb-4 text-3xl">◈</div>
+            <h3 class="text-xl font-bold mb-2">Automated Intake</h3>
+            <p class="text-slate-500 text-sm">Full mapping of internal logic systems and mandatory disclosure generation.</p>
+        </div>
+        <div class="glass-card p-8 rounded-3xl border-blue-500/50">
+            <div class="text-blue-500 mb-4 text-3xl">◈</div>
+            <h3 class="text-xl font-bold mb-2">Immutable Vault</h3>
+            <p class="text-slate-500 text-sm">AES-256 timestamped evidence storage for the required 5-year retention cycle.</p>
+        </div>
+        <div class="glass-card p-8 rounded-3xl">
+            <div class="text-blue-500 mb-4 text-3xl">◈</div>
+            <h3 class="text-xl font-bold mb-2">Protocol Purge</h3>
+            <p class="text-slate-500 text-sm">Managed lifecycle services including the 1,826-day automated record destruction.</p>
+        </div>
+    </section>
+
+    <section class="max-w-md w-full glass-card p-10 rounded-[40px] text-center border-blue-500/40 mb-32 glow-hover">
+        <h3 class="text-2xl font-bold mb-2">The Retainer</h3>
+        <div class="flex items-center justify-center gap-2 mb-6">
+            <span class="text-5xl font-black">$1,000</span>
+            <span class="text-slate-500 text-sm uppercase font-bold tracking-tighter">/ Monthly</span>
+        </div>
+        <ul class="text-left text-slate-300 space-y-4 mb-10 text-sm">
+            <li>✓ Monthly Logic Audit Reports</li>
+            <li>✓ Secure Audit-Ready Evidence Chain</li>
+            <li>✓ Managed Consumer Opt-Out Rights</li>
+            <li>✓ 24-Hour Implementation Priority</li>
+        </ul>
+        <a href="YOUR_TALLY_LINK" class="block w-full bg-blue-600 hover:bg-blue-500 text-white font-black
